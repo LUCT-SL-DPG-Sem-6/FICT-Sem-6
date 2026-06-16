@@ -1,0 +1,49 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.hero{
+    background: linear-gradient(rgba(0,0,0,.6),
+    rgba(0,0,0,.6)),
+    url('../images/disaster-bg.jpg');
+
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+    color:white;
+
+    display:flex;
+    align-items:center;
+}
+
+.hero h1{
+    font-size:60px;
+    font-weight:bold;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.stat-card{
+    transition:.3s;
+}
+
+.stat-card:hover{
+    transform:translateY(-5px);
+}
+
+.footer{
+    background:#111;
+    color:white;
+    padding:20px;
+}
+
+.dark{
+
+background:#111;
+color:white;
+
+}
